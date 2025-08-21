@@ -33,6 +33,7 @@ waitForAngular()
 ```
 ### 3) All you have to do is click the "Let's Get Started" button on aquifer to begin the quiz and the rest is handled for you:
 <img width="1186" height="306" alt="image" src="https://github.com/user-attachments/assets/856a48ae-04e7-4550-9463-56da6698908f" />
+
 ### Enjoy the 30+ minutes you will save each rotation
 
  
