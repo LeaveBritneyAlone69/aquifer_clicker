@@ -6,6 +6,7 @@
 ### 1) Get [ViolentMonkey](https://violentmonkey.github.io/) Extension for Firefox. It will not work on Google Chrome or Edge.  
 ### 2) Following the [guide](https://violentmonkey.github.io/guide/creating-a-userscript/) on the violentmonkey website, create a new extension and copy the code below in. Be sure to save it. 
 
+```javascript 
 // ==UserScript==
 // @name        aquifer script
 // @namespace   aquifer script
