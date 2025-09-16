@@ -21,19 +21,14 @@ const waitForAngular = () => {
   el1 = document.getElementById("quiz_item_response_answer_index_0")
   el2 = document.getElementById("btn1")
   el3 = document.getElementsByClassName("aq-button-2")[1]
-  el4 = document.getElementsByClassName("next-question")[0]
+  // el4 = document.getElementsByClassName("next-question")[0]
   console.log('here')
   if(el1) {
     el1.click()
     el2.click()
-  }
-  if (el3) {
     el3.click()
   }
 
-  if (el4) {
-    el4.click()
-  }
   setTimeout(waitForAngular, 1000)
 }
 waitForAngular()
