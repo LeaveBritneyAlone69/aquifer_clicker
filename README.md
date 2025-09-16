@@ -6,7 +6,6 @@
 ### 1) Get [ViolentMonkey](https://violentmonkey.github.io/) Extension for Firefox. It will not work on Google Chrome or Edge.  
 ### 2) Following the [guide](https://violentmonkey.github.io/guide/creating-a-userscript/) on the violentmonkey website, create a new extension and copy the code below in. Be sure to save it. 
 
-```javascript
 // ==UserScript==
 // @name        aquifer script
 // @namespace   aquifer script
@@ -21,11 +20,18 @@ const waitForAngular = () => {
   el1 = document.getElementById("quiz_item_response_answer_index_0")
   el2 = document.getElementById("btn1")
   el3 = document.getElementsByClassName("aq-button-2")[1]
-  if (el1) {
-      el1.click()
-      el2.click()
-      el3.click()
+  el4 = document.getElementsByClassName("next-question")[0]
+  console.log('here')
+  if(el1) {
+    el1.click()
+    el2.click()
+  }
+  if (el3) {
+    el3.click()
+  }
 
+  if (el4) {
+    el4.click()
   }
   setTimeout(waitForAngular, 1000)
 }
